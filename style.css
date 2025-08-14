@@ -1,0 +1,101 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 70px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-image: url(imagens/Blue-Purple-beautiful-scenery-Ultra-HD-wallpaper-4K-1024x585.webp); /* Substitua pelo link da sua imagem */
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Espaço entre os elementos no cabeçalho */
+    position: fixed;
+    top: 0;
+    width: 100%; /* Ocupa toda a largura da página */
+    padding: 20px 40px; /* Espaçamento interno */
+    background: rgba(0, 0, 0, 0.1); /* Fundo translúcido */
+    backdrop-filter: blur(15px); /* Efeito de desfoque */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    color: #fff; /* Cor do texto */
+}
+
+a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #ffffff;
+    padding: 5px;
+    border: 0.2em white solid;
+    border-radius: 1em;
+    font-weight: bold;
+    background-color: #dddddd51;
+}
+a:hover {
+    color: #ccc;
+    
+}
+
+a:target{
+    color: red;
+    border: 0.2em red solid;
+    
+}
+
+a[href^= "#"]{
+    padding-top: 0.7em;
+}
+
+
+#divtitulo{
+    width: 50%;
+    padding: auto;
+    
+
+}
+
+nav:first-of-type {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 50%;
+   
+}
+
+div[class="inf"] {
+    margin: 70px auto;
+    padding: 10px;
+    max-width: 800px;
+    box-shadow: 0 4px 6px #0000001a;
+    border-radius: 8px;
+    background: #ffffffcc; /* Leve transparência no fundo */
+}
+div h2{
+    text-align: center;
+    border-bottom:0.1em black solid;
+    padding-bottom: 0.2em;
+}
+
+
+:is(footer) {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #fff;
+    bottom: 0; /* Posiciona o rodapé no final da página */
+    left: 0;
+    width: 100%; /* Faz o rodapé ocupar toda a largura */
+}
+ul li{
+    font-size: x-large;
+}
