@@ -43,7 +43,7 @@ a:hover {
     
 }
 
-a:target{
+a:visited{
     color: red;
     border: 0.2em red solid;
     
@@ -98,4 +98,5 @@ div h2{
 }
 ul li{
     font-size: x-large;
+
 }
